@@ -4,8 +4,7 @@ go:
 env:
 - GO111MODULE=on
 script:
-- go build .
-- ls
+- go build -mod=vendor .
 deploy:
   provider: releases
   skip_cleanup: true
