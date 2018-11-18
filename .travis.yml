@@ -10,7 +10,7 @@ deploy:
   api_key:
     secure: T3Mo/P5L5kExMlAX+SrSQJqPgfUZqCCbKy4zTexETAcoD2BpL2wIxujqrYmXQkYaf8Zoyq67rt8o2fgcV8qnacRL9MxqqEoFja96vYZDG2NWj6GgGQMeSIT7TME3e7GiJnYby9MKwAkQAcXh3FIw4fTqbQUbIQEAb4sz6HUstPCSyq+O5RNlHlSxYJVe4q/LKOUqV+4aCIH/nzFA+WSWR4Jglk8EXm5/pY3E3yte8NeLdOjarK1XW85qcyoSly4XrLf+UecTYiAPG2Y0WzXx+D8M3HMZ01OQRsaviLrVCugzjKiS3KFHywFy4q46RMill7JmJZG6i0qktG/5Xwqc41tBF3CqI7+dtXfIfxcF2tvFIziW+qT2zw+ub3O95GZAO6RXslrQUD4ewWt9G9icMcsxd3pWGDugowshlK1j1pvGhIabUc0AyWRAe+3lBA/S9l9REXOsfLcpncmW0oWoXBgwEd+a5KgBkzWkscpW5bFhF188vv1g46sS1d9kUvY+wEfmJAyduaWO2yxncCs+T+Zl3MABZFEx80exTbB9K8X8vFDvSsZkLcfoWOqATvuFVp3hSP0snWFmHsmYpSAxdfAq6imVMtcZ4RA2I2r1pTjG1NOwSk2yxVXSX5WSWMEtWO/y+Y8eksqHMx5b1L5f1Q3pC+sAKtqJrPlVy57TXao=
   file: gomodtutorial
-  skip_cleanup: false
+  skip_cleanup: true
   on:
     tags: true
     repo: eexe1/go-module-example
