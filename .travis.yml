@@ -1,0 +1,24 @@
+language: go
+
+go:
+- "1.11.x"
+
+env:
+- GO111MODULE=on
+
+script:
+- go build .
+
+before_deploy:
+# Set up git user name and tag this commit
+- git config --local user.name "Travis CI"
+- git config --local user.email "travis-ci@travisci.com"
+- git tag "v1.0.0"
+
+deploy:
+  provider: releases
+  skip_cleanup: true
+  file: "gomodtutorial"
+  on:
+    tags: true
+
